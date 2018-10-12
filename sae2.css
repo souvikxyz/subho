@@ -1,0 +1,88 @@
+body{
+	background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.footer{
+	font-size: 12px;
+	padding: 15px;
+	text-align: center;
+	background-color: #33b5e5;
+	color: #ffffff;
+}
+.title
+{
+	font-size: 12px;
+	padding: 15px;
+	text-align: center;
+	background-color: #33b5e5;
+	color: #ffffff;
+	margin: 10px;
+
+}
+	
+.para{
+	text-align: center;
+	font-size: 12px;
+	height: 300px;
+	background-color: #008080;
+	padding: 15px;
+	margin: 10px;
+
+}
+.customDiv{
+	background-color: 48B341;
+	color: black;
+	min-height: 280px;
+	text-align: center;
+}
+.pad{
+	padding: 20px;
+	background-color:#0080ff;
+	color: red;
+	margin: 8px;
+
+}
+.item{
+	height: 300px;
+	
+}
+.blink {
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+	 animation: blink .75s linear infinite;
+	 color: red;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
